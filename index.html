@@ -1285,8 +1285,8 @@
                 <div class="bg-slate-50 rounded-2xl p-4 sm:p-5 border border-slate-200 hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
                     <div>
                         <!-- Image & Badges -->
-                        <div class="relative mb-4 overflow-hidden rounded-xl h-48">
-                            <img src="${doc.img}" alt="${doc.name}" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500">
+                        <div class="relative mb-4 overflow-hidden rounded-xl h-48 bg-slate-100">
+                            <img src="${doc.img}" alt="${doc.name}" class="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute top-2.5 left-2.5 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold px-2 py-0.5 rounded-full border border-white/20">
                                 ${doc.exp}
                             </div>
@@ -1393,7 +1393,7 @@
             content.innerHTML = `
                 <div class="flex justify-between items-start border-b border-slate-200 pb-3">
                     <div class="flex gap-3 items-center">
-                        <img src="${doc.img}" class="w-14 h-14 rounded-xl object-cover">
+                        <img src="${doc.img}" class="w-14 h-14 rounded-xl object-contain object-center bg-slate-100">
                         <div>
                             <h3 class="text-base font-extrabold text-slate-900">${doc.name}</h3>
                             <p class="text-xs text-medical-600 font-bold">${doc.role}</p>
