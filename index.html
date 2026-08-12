@@ -96,9 +96,9 @@
                     <i class="fa-solid fa-location-dot text-medical-500"></i>
                     <span>Campus:</span>
                     <select id="branchSelector" onchange="switchBranch(this.value)" class="bg-slate-800 text-white rounded px-2 py-0.5 border border-slate-700 focus:outline-none focus:border-medical-500 cursor-pointer text-[11px]">
-                        <option value="central">ApexCare Metro City Campus</option>
-                        <option value="north">ApexCare North Wing Hub</option>
-                        <option value="west">ApexCare Westside Heart Inst.</option>
+                        <option value="central">ApexCare Banjara Hills Campus</option>
+                        <option value="north">ApexCare Kukatpally Hub</option>
+                        <option value="west">ApexCare Gachibowli Heart Inst.</option>
                     </select>
                 </div>
             </div>
@@ -584,13 +584,13 @@
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
                         <p class="text-slate-700 italic text-xs leading-relaxed mb-4">
-                            "When my father required urgent cardiac bypass, Dr. Sarah Jenkins performed robotic minimally invasive surgery. He walked out of the hospital in just 4 days!"
+                            "When my father required urgent cardiac bypass, Dr. Sunita Rao performed robotic minimally invasive surgery. He walked out of the hospital in just 4 days!"
                         </p>
                     </div>
                     <div class="flex items-center gap-3 pt-3 border-t border-slate-200">
                         <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150" alt="Patient" class="w-9 h-9 rounded-full object-cover">
                         <div>
-                            <div class="font-bold text-slate-900 text-xs">Elena Rostova</div>
+                            <div class="font-bold text-slate-900 text-xs">Lakshmi Venkatesh</div>
                             <div class="text-[11px] text-slate-500">Cardiac Surgery Care</div>
                         </div>
                     </div>
@@ -626,9 +626,9 @@
                         </p>
                     </div>
                     <div class="flex items-center gap-3 pt-3 border-t border-slate-200">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150" alt="Patient" class="w-9 h-9 rounded-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150" alt="Patient" class="w-9 h-9 rounded-full object-cover" id="testimonial3Img">
                         <div>
-                            <div class="font-bold text-slate-900 text-xs">Aisha Al-Mansoor</div>
+                            <div class="font-bold text-slate-900 text-xs">Fatima Sheikh</div>
                             <div class="text-[11px] text-slate-500">Oncology Care</div>
                         </div>
                     </div>
@@ -647,7 +647,7 @@
                     <span class="text-emerald-400 font-bold uppercase tracking-widest text-[11px] bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800">100% Cashless Financial Desk</span>
                     <h2 class="text-2xl sm:text-4xl font-extrabold leading-tight">Focus on Healing. We Handle the Insurance Paperwork.</h2>
                     <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                        ApexCare is empaneled with over 40+ major Indian Health Insurance Providers, Government Health Schemes (Ayushman Bharat, CGHS, EHS), and TPAs for 30-minute cashless pre-authorization.
+                        ApexCare is empaneled with over 30+ major Indian Health Insurance Providers, Government Health Schemes (Ayushman Bharat, CGHS, EHS), and TPAs for 30-minute cashless pre-authorization.
                     </p>
 
                     <!-- Interactive Indian Insurance Live Search Widget -->
@@ -744,20 +744,29 @@
                     <div class="space-y-3">
                         <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 hover:border-medical-500 transition-colors cursor-pointer" onclick="updateMapLocation('central')">
                             <div class="flex justify-between items-start">
-                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">Metro Central Super-Specialty Campus</h3>
+                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">Banjara Hills Super-Specialty Campus</h3>
                                 <span class="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded">24/7 ER Open</span>
                             </div>
-                            <p class="text-xs text-slate-600 mt-1"><i class="fa-solid fa-location-dot text-medical-600 mr-1"></i> Health City Road, Metro Center</p>
-                            <p class="text-xs text-slate-500 mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i> Direct Line: +91 1800-273-9999</p>
+                            <p class="text-xs text-slate-600 mt-1"><i class="fa-solid fa-location-dot text-medical-600 mr-1"></i> Road No. 12, Banjara Hills, Hyderabad, Telangana 500034</p>
+                            <p class="text-xs text-slate-500 mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i> Direct Line: 1800-273-9999</p>
                         </div>
 
                         <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 hover:border-medical-500 transition-colors cursor-pointer" onclick="updateMapLocation('north')">
                             <div class="flex justify-between items-start">
-                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">North Wing Heart & Cancer Hub</h3>
+                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">Kukatpally Heart & Cancer Hub</h3>
                                 <span class="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded">24/7 ER Open</span>
                             </div>
-                            <p class="text-xs text-slate-600 mt-1"><i class="fa-solid fa-location-dot text-medical-600 mr-1"></i> Pioneer Tech Boulevard, North Zone</p>
-                            <p class="text-xs text-slate-500 mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i> Direct Line: +91 1800-273-8888</p>
+                            <p class="text-xs text-slate-600 mt-1"><i class="fa-solid fa-location-dot text-medical-600 mr-1"></i> KPHB Colony Main Road, Kukatpally, Hyderabad, Telangana 500072</p>
+                            <p class="text-xs text-slate-500 mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i> Direct Line: 1800-273-8888</p>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 hover:border-medical-500 transition-colors cursor-pointer" onclick="updateMapLocation('west')">
+                            <div class="flex justify-between items-start">
+                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">Gachibowli Heart Institute</h3>
+                                <span class="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 rounded">24/7 ER Open</span>
+                            </div>
+                            <p class="text-xs text-slate-600 mt-1"><i class="fa-solid fa-location-dot text-medical-600 mr-1"></i> Financial District, Gachibowli, Hyderabad, Telangana 500032</p>
+                            <p class="text-xs text-slate-500 mt-1"><i class="fa-solid fa-phone text-slate-400 mr-1"></i> Direct Line: 1800-273-7777</p>
                         </div>
                     </div>
                 </div>
@@ -820,9 +829,9 @@
             <div class="pt-6 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-3">
                 <span>© 2026 ApexCare Health & Research Institute. All rights reserved.</span>
                 <div class="flex gap-4">
-                    <a href="#" class="hover:text-slate-300">Privacy Policy</a>
-                    <a href="#" class="hover:text-slate-300">Terms of Care</a>
-                    <a href="#" class="hover:text-slate-300">HIPAA Compliance</a>
+                    <a href="javascript:void(0)" onclick="openLegalModal('privacy')" class="hover:text-slate-300">Privacy Policy</a>
+                    <a href="javascript:void(0)" onclick="openLegalModal('terms')" class="hover:text-slate-300">Terms of Care</a>
+                    <a href="javascript:void(0)" onclick="openLegalModal('dpdp')" class="hover:text-slate-300">Patient Data Privacy (DPDP Act)</a>
                 </div>
             </div>
         </div>
@@ -949,6 +958,18 @@
         </div>
     </div>
 
+    <!-- MODAL 5: LEGAL / COMPLIANCE MODAL (Privacy, Terms, DPDP) -->
+    <div id="legalModal" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full p-5 sm:p-6 space-y-4 shadow-2xl border border-slate-100 max-h-[80vh] overflow-y-auto">
+            <div class="flex justify-between items-center border-b border-slate-200 pb-3">
+                <h3 class="font-bold text-base sm:text-lg text-slate-900" id="legalModalTitle">Privacy Policy</h3>
+                <button onclick="closeLegalModal()" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <div class="text-xs sm:text-[13px] text-slate-600 leading-relaxed space-y-2.5" id="legalModalBody"></div>
+            <button onclick="closeLegalModal()" class="w-full bg-slate-900 text-white font-bold py-2.5 rounded-xl hover:bg-slate-800 text-xs transition-colors">Close</button>
+        </div>
+    </div>
+
     <!-- TOAST CONTAINER -->
     <div id="toastContainer" class="fixed top-16 right-4 z-50 space-y-2 pointer-events-none"></div>
 
@@ -1003,8 +1024,8 @@
         // DATA STORE: DOCTORS DATA
         const doctorsData = [
             {
-                id: "dr-jenkins",
-                name: "Dr. Sarah Jenkins, MD, DM",
+                id: "dr-rao",
+                name: "Dr. Sunita Rao, MD, DM",
                 dept: "cardiology",
                 deptLabel: "Cardiology",
                 role: "Senior Consultant - Interventional Cardiology",
@@ -1012,11 +1033,11 @@
                 surgeries: "10,000+ Procedures",
                 rating: "4.9",
                 reviews: "850+",
-                img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300",
+                img: "https://images.pexels.com/photos/36665089/pexels-photo-36665089.jpeg?auto=compress&cs=tinysrgb&w=300",
                 specialties: ["Complex Angioplasty", "TAVI / TAVR", "Heart Failure"],
-                languages: ["English", "Hindi"],
+                languages: ["English", "Hindi", "Telugu"],
                 nextAvailable: "Today at 04:30 PM",
-                bio: "Dr. Sarah Jenkins is an internationally acclaimed cardiologist with expertise in non-surgical valve replacements and complex coronary interventions."
+                bio: "Dr. Sunita Rao is an internationally acclaimed cardiologist with expertise in non-surgical valve replacements and complex coronary interventions."
             },
             {
                 id: "dr-chen",
@@ -1035,8 +1056,8 @@
                 bio: "Dr. Chen specializes in organ-preservation robotic cancer surgeries and multi-disciplinary tumor management."
             },
             {
-                id: "dr-alvarez",
-                name: "Dr. Elena Alvarez, MD, MCh",
+                id: "dr-nair",
+                name: "Dr. Divya Nair, MD, MCh",
                 dept: "neurology",
                 deptLabel: "Neurology",
                 role: "Director - Neuro & Spine Surgery",
@@ -1044,15 +1065,15 @@
                 surgeries: "8,200+ Surgeries",
                 rating: "4.88",
                 reviews: "740+",
-                img: "https://images.unsplash.com/photo-1594824813566-78a011749553?auto=format&fit=crop&q=80&w=300",
+                img: "https://images.pexels.com/photos/32428850/pexels-photo-32428850.jpeg?auto=compress&cs=tinysrgb&w=300",
                 specialties: ["Brain Tumor Neuro-Navigation", "Micro-Spine Surgery", "Stroke Care"],
-                languages: ["English", "Spanish"],
+                languages: ["English", "Hindi", "Malayalam"],
                 nextAvailable: "Today at 06:15 PM",
-                bio: "Dr. Alvarez is a pioneer in awake craniotomy and intraoperative MRI-guided brain surgery."
+                bio: "Dr. Divya Nair is a pioneer in awake craniotomy and intraoperative MRI-guided brain surgery."
             },
             {
                 id: "dr-patel",
-                name: "Dr. Aris Patel, MS, FRCS",
+                name: "Dr. Amit Patel, MS, FRCS",
                 dept: "orthopedics",
                 deptLabel: "Orthopedics",
                 role: "Lead Robotic Joint Replacement Surgeon",
@@ -1060,11 +1081,11 @@
                 surgeries: "7,000+ Joint Replaced",
                 rating: "4.92",
                 reviews: "910+",
-                img: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=300",
+                img: "https://images.pexels.com/photos/37315114/pexels-photo-37315114.jpeg?auto=compress&cs=tinysrgb&w=300",
                 specialties: ["4th Gen Robotic Knee", "Hip Arthroscopy", "Sports Injury"],
                 languages: ["English", "Hindi", "Gujarati"],
                 nextAvailable: "Tomorrow at 02:00 PM",
-                bio: "Dr. Patel has trained top orthopedic surgeons across North America and Asia in minimally invasive robotic joint replacements."
+                bio: "Dr. Amit Patel has trained top orthopedic surgeons across North America and Asia in minimally invasive robotic joint replacements."
             },
             {
                 id: "dr-gupta",
@@ -1076,7 +1097,7 @@
                 surgeries: "4,500+ Endoscopies",
                 rating: "4.89",
                 reviews: "490+",
-                img: "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&q=80&w=300",
+                img: "https://images.pexels.com/photos/15752232/pexels-photo-15752232.jpeg?auto=compress&cs=tinysrgb&w=300",
                 specialties: ["Liver Transplant", "ERCP / SpyGlass", "IBD Management"],
                 languages: ["English", "Hindi"],
                 nextAvailable: "Today at 05:00 PM",
@@ -1466,17 +1487,32 @@
         }
 
         // MAP SWITCHER
+        const campusMapData = {
+            central: {
+                title: "ApexCare Banjara Hills Campus",
+                addr: "Road No. 12, Banjara Hills, Hyderabad • Level 1 Trauma Center & Helipad Active"
+            },
+            north: {
+                title: "ApexCare Kukatpally Heart & Cancer Hub",
+                addr: "KPHB Colony Main Road, Kukatpally, Hyderabad • 24/7 Cardiac Emergency Desk & Level 1 Trauma"
+            },
+            west: {
+                title: "ApexCare Gachibowli Heart Institute",
+                addr: "Financial District, Gachibowli, Hyderabad • Dedicated Cardiac Cath Lab & Executive OPD"
+            }
+        };
+
         function updateMapLocation(campusKey) {
             const title = document.getElementById('mapLocationTitle');
             const addr = document.getElementById('mapLocationAddress');
+            const data = campusMapData[campusKey] || campusMapData.central;
 
-            if(campusKey === 'north') {
-                title.textContent = "ApexCare North Wing Heart & Cancer Hub";
-                addr.textContent = "Pioneer Tech Boulevard, North Zone • 24/7 Cardiac Emergency Desk & Level 1 Trauma";
-            } else {
-                title.textContent = "ApexCare Central Campus";
-                addr.textContent = "Health City Road, Metro Center • Level 1 Trauma Center & Helipad Active";
-            }
+            title.textContent = data.title;
+            addr.textContent = data.addr;
+
+            const selector = document.getElementById('branchSelector');
+            if (selector) selector.value = campusKey;
+
             triggerToast("Location map updated.");
         }
 
@@ -1508,9 +1544,45 @@
             }, 3500);
         }
 
+        // LEGAL / COMPLIANCE MODAL CONTENT
+        const legalContent = {
+            privacy: {
+                title: "Privacy Policy",
+                body: `<p>ApexCare Health & Research Institute collects patient information solely to deliver safe, coordinated clinical care and to meet statutory record-keeping obligations under Indian healthcare regulations.</p>
+                       <p>We do not sell patient data. Diagnostic reports, prescriptions, and billing records are stored on encrypted, access-controlled systems and shared only with your treating consultants, empaneled insurers/TPAs for claim processing, or government health authorities where legally mandated.</p>
+                       <p>You may request a copy of your medical records or ask us to correct inaccurate personal data by visiting the Medical Records desk at any ApexCare campus.</p>`
+            },
+            terms: {
+                title: "Terms of Care",
+                body: `<p>Appointments booked online are provisional until confirmed by SMS; walk-in Emergency patients are always triaged first regardless of prior bookings.</p>
+                       <p>Cashless insurance approval is subject to your policy's terms and the empaneled insurer/TPA's final authorization — ApexCare facilitates paperwork but is not the insurance decision-maker.</p>
+                       <p>Health checkup package pricing is valid at the time of booking and may vary by campus. Patients have the right to a second opinion and to access their treatment cost estimate before any elective procedure.</p>`
+            },
+            dpdp: {
+                title: "Patient Data Privacy — DPDP Act, 2023",
+                body: `<p>As a Data Fiduciary under India's Digital Personal Data Protection (DPDP) Act, 2023, ApexCare processes your personal and health data only for the purpose it was collected — clinical care, billing, and legally required reporting.</p>
+                       <p>You have the right to access, correct, or request erasure of your personal data, and to withdraw consent for non-essential communication at any time by contacting our Grievance Officer at the hospital's Medical Records desk.</p>
+                       <p>Sensitive health records are encrypted at rest and in transit, and are retained only as long as required under the Clinical Establishments Act and applicable medical record retention norms.</p>`
+            }
+        };
+
+        function openLegalModal(type) {
+            const content = legalContent[type];
+            if (!content) return;
+            document.getElementById('legalModalTitle').textContent = content.title;
+            document.getElementById('legalModalBody').innerHTML = content.body;
+            document.getElementById('legalModal').classList.remove('hidden');
+        }
+
+        function closeLegalModal() {
+            document.getElementById('legalModal').classList.add('hidden');
+        }
+
         // BRANCH SELECTOR TOGGLE
         function switchBranch(branch) {
-            triggerToast(`Switching primary campus data to: ${branch.toUpperCase()}`);
+            updateMapLocation(branch);
+            const locSection = document.getElementById('locations');
+            if (locSection) locSection.scrollIntoView({ behavior: 'smooth' });
         }
     </script>
     <!-- Add this script before the closing </body> tag -->
